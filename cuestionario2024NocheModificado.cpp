@@ -956,13 +956,220 @@ main()
 							contan=contan+1;
 						}
 			break;
-			case 7: 
+			case 7:
 					cout<<"CREAR COMPONENTES FRONT-END"<<endl; 
-					cout<<"1-¿cuales son los tres pilares principales de la ciberseguridad?"<<endl;
-					cout<<"a)amistad, valores y conocimiento"<<endl;
-					cout<<"b)avances tecnologicos, antivirus y protocolos"<<endl;
-					cout<<"c)honestidad, confidencialidad y recursos"<<endl;
-					cout<<"d)Integridad, confidencialidad y disponibilidad"<<endl;
+					cout<<"1-Â¿Propósito principal de HTML en el desarrollo front-end de software?"<<endl;
+					cout<<"a)HTML se utiliza para estructurar el contenido de una página web, definiendo elementos como encabezados, párrafos, enlaces, imágenes y otros elementos que forman la base de la interfaz de usuario. "<<endl;
+					cout<<"b)HTML se utiliza para el diseño visual de una página web, controlando su apariencia y estilo. "<<endl;
+					cout<<"c)HTML se utiliza para manipular la lógica del lado del cliente en una aplicación web."<<endl;
+					cout<<"d)HTML se utiliza para almacenar datos y gestionar la interacción del usuario en una aplicación web."<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='a')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+						}	 
+					cout<<"		2-Â¿Ventajas del uso de un framework de JavaScript como React.js en comparación con la codificación JavaScript tradicional?"<<endl;
+					cout<<"a)React.js simplifica el desarrollo de interfaces de usuario al introducir el concepto de componentes reutilizables, facilitando la organización y el mantenimiento del código."<<endl;
+					cout<<"b)React.js reduce la seguridad de la aplicación web al introducir vulnerabilidades en el código."<<endl;
+					cout<<"c)React.js limita la flexibilidad y la personalización del código en comparación con JavaScript tradicional."<<endl;
+					cout<<"d)React.js aumenta la complejidad del desarrollo al requerir conocimientos avanzados de programación."<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='a')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+						}	
+					cout<<"		3-Â¿Diferencia fundamental entre un preprocesador CSS y CSS puro?"<<endl;
+					cout<<"a)Los preprocesadores CSS, como Sass o Less, permiten características avanzadas como variables, anidamiento de reglas, mixins y funciones, lo que hace que la escritura y el mantenimiento del código CSS sean más eficientes."<<endl;
+					cout<<"b)Los preprocesadores CSS son menos potentes y flexibles que CSS puro."<<endl;
+					cout<<"c)CSS puro es más fácil de aprender y usar que los preprocesadores CSS."<<endl;
+					cout<<"d)No hay diferencia entre un preprocesador CSS y CSS puro; ambos son iguales en funcionalidad y características."<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='a')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+						}	
+							cout<<"		4-Â¿Que es un Backup?"<<endl;
+					cout<<"a)Los bundlers como Webpack no tienen impacto en el rendimiento de una aplicación web."<<endl;
+					cout<<"b)Los bundlers como Webpack solo aumentan la complejidad del desarrollo sin ofrecer mejoras reales en el rendimiento."<<endl;
+					cout<<"c)Los bundlers como Webpack pueden mejorar el rendimiento al combinar y comprimir archivos JavaScript, CSS, imágenes y otros recursos en paquetes más pequeños, reduciendo así el tiempo de carga de la página."<<endl;
+					cout<<"d)Los bundlers como Webpack pueden empeorar el rendimiento de una aplicación web al agregar sobrecarga adicional al proceso de construcción."<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='c')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+						}
+					cout<<"5-Â¿Cuál es el papel de las bibliotecas de componentes UI en el desarrollo de interfaces de usuario modernas?"<<endl;
+					cout<<"a)Las bibliotecas de componentes UI no tienen ningún papel en el desarrollo de interfaces de usuario modernas. "<<endl;
+					cout<<"b)Las bibliotecas de componentes UI son útiles solo para desarrolladores principiantes que no saben cómo crear sus propios componentes."<<endl;
+					cout<<"c)Las bibliotecas de componentes UI solo aumentan la complejidad del desarrollo y no aportan ningún beneficio real."<<endl;
+					cout<<"d)Las bibliotecas de componentes UI proporcionan conjuntos de componentes predefinidos y estilizados que pueden ser reutilizados en diferentes partes de una aplicación.  "<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='d')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+						}
+					cout<<"6-Â¿Cuál es la importancia de las pruebas unitarias y de integración en el desarrollo de componentes front-end?"<<endl;
+					cout<<"a)Las pruebas unitarias y de integración son opcionales y no son necesarias en el desarrollo de componentes front-end."<<endl;
+					cout<<"b)Las pruebas unitarias y de integración solo añaden tiempo y esfuerzo extra al proceso de desarrollo sin proporcionar beneficios significativos."<<endl;
+					cout<<"c)Las pruebas unitarias y de integración son fundamentales para garantizar que los componentes front-end funcionen correctamente y se integren sin problemas con otras partes de la aplicación. "<<endl;
+					cout<<"d)Las pruebas unitarias y de integración son útiles solo para proyectos de gran escala y no son relevantes para aplicaciones más pequeñas. "<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='c')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+						}
+					cout<<"7-Â¿Qué métodos de organización de código recomendarías para mantener un proyecto front-end escalable y mantenible?"<<endl;
+					cout<<"a) No es necesario organizar el código en un proyecto front-end; puede dejarse como está y seguirá siendo mantenible"<<endl;
+					cout<<"b)Algunos métodos recomendados incluyen la separación de preocupaciones (como separar el HTML, CSS y JavaScript), la adopción de una arquitectura de componentes, el uso de patrones de diseño como MVC o MVVM, el empleo de nombres de archivos y carpetas descriptivos, y la modularización del código para promover la reutilización y la legibilidad."<<endl;
+					cout<<"c)La organización del código solo es importante en proyectos pequeños y no es relevante para proyectos más grandes o complejos."<<endl;
+					cout<<"d)La organización del código es una cuestión secundaria y no afecta realmente la escalabilidad o mantenibilidad del proyecto. "<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='b')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+						}
+					cout<<"8-Â¿Cuáles son las principales diferencias entre Angular y React en términos de arquitectura y enfoque de desarrollo ?"<<endl;
+					cout<<"a) Angular y React son iguales en términos de arquitectura y enfoque de desarrollo."<<endl;
+					cout<<"b) Angular es una biblioteca de JavaScript, mientras que React es un framework de desarrollo web completo."<<endl;
+					cout<<"c) Angular es un framework de desarrollo web completo y opinionado, que incluye muchas características (listas para usar) y sigue una arquitectura MVC (Modelo-Vista-Controlador). Por otro lado, React es una biblioteca de JavaScript para construir interfaces de usuario y sigue un enfoque más flexible y basado en componentes. "<<endl;
+					cout<<"d) Angular y React son iguales en términos de arquitectura y enfoque de desarrollo."<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='c')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+						}
+					cout<<"9-Cómo afecta el rendimiento de una aplicación web el uso excesivo de bibliotecas y frameworks front-end"<<endl;
+					cout<<"a) El uso excesivo de bibliotecas y frameworks front-end siempre mejora el rendimiento de una aplicación web al proporcionar más funcionalidades y características."<<endl;
+					cout<<"b) El uso excesivo de bibliotecas y frameworks front-end no tiene ningún impacto en el rendimiento de una aplicación web."<<endl;
+					cout<<"c)El uso excesivo de bibliotecas y frameworks front-end solo afecta el rendimiento de una aplicación web en dispositivos móviles, pero no en computadoras de escritorio."<<endl;
+					cout<<"d) El uso excesivo de bibliotecas y frameworks front-end puede afectar negativamente el rendimiento de una aplicación web debido a la sobrecarga adicional de recursos. "<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='d')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+						}
+					cout<<"10-Â¿Qué consideraciones de accesibilidad deben tenerse en cuenta al diseñar y desarrollar componentes front-end para una aplicación web?"<<endl;
+					cout<<"a) La accesibilidad no es importante en el desarrollo de componentes front-end; solo importa la apariencia visual de la aplicación."<<endl;
+					cout<<"b) La accesibilidad solo es importante para usuarios con discapacidades visuales; no es relevante para la mayoría de los usuarios."<<endl;
+					cout<<"c) La accesibilidad es responsabilidad exclusiva del usuario final; no es necesario considerarla durante el desarrollo de componentes front-end."<<endl;
+					cout<<"d) Algunas consideraciones importantes de accesibilidad incluyen el uso adecuado de etiquetas semánticas HTML para mejorar la navegabilidad y la comprensión de la página por parte de los lectores de pantalla, proporcionar texto alternativo para las imágenes, garantizar un contraste suficiente entre el texto y el fondo, y permitir la navegación y la interacción del teclado para usuarios que no pueden utilizar un ratón. "<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='d')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+						}
+			break;
+			case 8: 
+				cout<<"LENGUAJE DE PROGRAMACION C++"<<endl; 
+					cout<<"1-Â¿Que es C++?"<<endl;
+					cout<<"a)Lenguaje de seÃ±as"<<endl;
+					cout<<"b)Lenguaje de programaciÃ³n considerado como uno de los de mayor nivel en cuanto a posibilidades en el mundo de la manipulaciÃ³n de objetos."<<endl;
+					cout<<"c)Lenguaje de programacion para realizar pausas activas"<<endl;
+					cout<<"d)a y c son correctas"<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='b')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+						}	 
+					cout<<"2.Â¿Que es una base de datos en C++?"<<endl;
+					cout<<"a)Alternativa para almacenar y procesar datos a gran escala. "<<endl;
+					cout<<"b)Es un archivo que contiene datos"<<endl;
+					cout<<"c)Es un disco duro"<<endl;
+					cout<<"d)Es un espacio en la nube de almacenamiento"<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='a')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+						}	
+					cout<<"3-Â¿Como funciona el cout y el cin?"<<endl;
+					cout<<"a)El cout sirve para cortar y el cin para pegar"<<endl;
+					cout<<"b)El cin se utiliza para introducir datos con el operador"<<endl;
+					cout<<"c)El cout permite mostrar por pantalla cualquier tipo de dato"<<endl;
+					cout<<"d)b y c son correctas"<<endl;
 					cin>>respuesta;
 
 				    if(respuesta=='d')
@@ -975,11 +1182,45 @@ main()
 							cout<<"La respuesta es incorrecta"<<endl; 
 							contan=contan+1;
 						}	 
-					cout<<"		2-¿Cuáles son los principales tipos de ataques y alertas actuales?"<<endl;
-					cout<<"a)APT, Advanced Persistent Threat"<<endl;
-					cout<<"b)El phishing"<<endl;
-					cout<<"c)Malware"<<endl;
-					cout<<"d)Fake News"<<endl;
+					cout<<"4.Â¿Para que se utilizan las bibliotecas en C++?"<<endl;
+					cout<<"a)Sitio para investigar,aprender y leer "<<endl;
+					cout<<"b)Para guardar informacion"<<endl;
+					cout<<"c)Contienen el cÃ³digo objeto de muchos programas que permiten hacer cosas comunes, como leer el teclado, escribir en la pantalla,etc"<<endl;
+					cout<<"d)b y c son correctas"<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='c')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+						}	
+					cout<<"5-Â¿cual es la funcion que cumple el if/else?"<<endl;
+					cout<<"a)if condiciÃ³n define la condiciÃ³n que determina quÃ© valor se asigna."<<endl;
+					cout<<"b)Else expresiÃ³n define el valor que se asigna si la condiciÃ³n es false. ."<<endl;
+					cout<<"c)se utiliza para introducir datos con el operador"<<endl;
+					cout<<"d)a y b son correctas"<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='d')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+						}	 
+					cout<<"6.Â¿Que funcion cumple el char?"<<endl;
+					cout<<"a)Se usa para abrir un caso"<<endl;
+					cout<<"b)Se usa para almacenar el valor entero de un miembro del juego de caracteres que se puede representar."<<endl;
+					cout<<"c)Es un lenguaje de programacion"<<endl;
+					cout<<"d)Es un archivo"<<endl;
 					cin>>respuesta;
 
 				    if(respuesta=='b')
@@ -992,11 +1233,28 @@ main()
 							cout<<"La respuesta es incorrecta"<<endl; 
 							contan=contan+1;
 						}	
-					cout<<"		3-¿A que se le considera Antispyware?"<<endl;
-					cout<<"a)funcion que procesa algoritmos decodificados"<<endl;
-					cout<<"b)programa para controlar el sistema operativo de un equipo de computo"<<endl;
-					cout<<"c)Herramienta de software diseñada para detectar y eliminar programas maliciosos"<<endl;
-					cout<<"d)ninguna de las anteriores"<<endl;
+					cout<<"7.Â¿Para que incluimos el <iostream>?"<<endl;
+					cout<<"a)Se usa para que el cout y el cin funcionen"<<endl;
+					cout<<"b)Se usa para almacenar un numero"<<endl;
+					cout<<"c)Para que lea el programa"<<endl;
+					cout<<"d)Para agregar un color a los caracteres"<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='a')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+						}	
+					cout<<"8.Â¿Que funcion cumple el endl?"<<endl;
+					cout<<"a)Se usa para ejecutar el programa"<<endl;
+					cout<<"b)Se usa para compilar el programa"<<endl;
+					cout<<"c)Se usa oara acabar la linea y pasar a la siguiente"<<endl;
+					cout<<"d)Se usa para terminar el programa"<<endl;
 					cin>>respuesta;
 
 				    if(respuesta=='c')
@@ -1009,14 +1267,14 @@ main()
 							cout<<"La respuesta es incorrecta"<<endl; 
 							contan=contan+1;
 						}	
-							cout<<"		4-¿Que es un Backup?"<<endl;
-					cout<<"a)Copia de seguridad que protege los datos en caso de ser eliminados del disco duro"<<endl;
-					cout<<"b)herramienta de sefuridad compuesto por varios programas enlazados"<<endl;
-					cout<<"c)Es una aplicacion web con gestor de contenidos"<<endl;
-					cout<<"d)programa informatico que aprovecha errores para mejorar su desarrollo"<<endl;
+					cout<<"9.Â¿Que funcion cumple el using namespace std?"<<endl;
+					cout<<"a)Se usa para abrir un caso"<<endl;
+					cout<<"b)Permite tener un alcance directo a todas las funciones declaradas en un espacio de nombres"<<endl;
+					cout<<"c)nombre de espacio"<<endl;
+					cout<<"d)saturacion de archivos"<<endl;
 					cin>>respuesta;
 
-				    if(respuesta=='a')
+				    if(respuesta=='b')
 						{
 					  		cout<<"la respuesta es correcta"<<endl;
 					  		contap=contap+1;
@@ -1025,46 +1283,12 @@ main()
 						{
 							cout<<"La respuesta es incorrecta"<<endl; 
 							contan=contan+1;
-						}
-					cout<<"5-¿Cual es el objetivo de la ciberseguridad?"<<endl;
-					cout<<"a)prevenir, proteger y detectar amenazas de manera temprana en datos o informacion sensible, asi mismo recuperar datos y/o dispositivos atacados "<<endl;
-					cout<<"b)Es el estudio que comprende el análisis y gestión de sistemas llevado a cabo por profesionales en tecnologías de la información (TI) con el objetivode identificar, enumerar y describir las diversas vulnerabilidades"<<endl;
-					cout<<"c)Es dirigir las transacciones comerciales entre empresas, utilizando medios telemáticos como EDI (Electronic Data Interchange) o el Comercio Electrónico."<<endl;
-					cout<<"d)Tiene como objetivo dirigir las rutas de los datos en riesgo a bases seguras para ser analizadas por personal profesional con sofware adaptado a las necesidades "<<endl;
-					cin>>respuesta;
-
-				    if(respuesta=='a')
-						{
-					  		cout<<"la respuesta es correcta"<<endl;
-					  		contap=contap+1;
-				    	}
-					else
-						{
-							cout<<"La respuesta es incorrecta"<<endl; 
-							contan=contan+1;
-						}
-					cout<<"6-¿Que es un dominio en ciberseguridad?"<<endl;
-					cout<<"a)Es un solo sistema operativo destinado a la navegacion en la web"<<endl;
-					cout<<"b)Es una direccion unica y legible para identificar y acceder a recursos de la web"<<endl;
-					cout<<"c)es la parte que se puede personalizar y puede elegir el propietario del sitio web."<<endl;
-					cout<<"d) la respuesta b y c son correctas."<<endl;
-					cin>>respuesta;
-
-				    if(respuesta=='d')
-						{
-					  		cout<<"la respuesta es correcta"<<endl;
-					  		contap=contap+1;
-				    	}
-					else
-						{
-							cout<<"La respuesta es incorrecta"<<endl; 
-							contan=contan+1;
-						}
-					cout<<"7-¿cuales son las fases de la ciberseguridad?"<<endl;
-					cout<<"a)compilar, operar, solucionar y verificar"<<endl;
-					cout<<"b)Prevencion, metodologia, transformacion y regulacion"<<endl;
-					cout<<"c)Prevencion, deteccion, respuesta y conservacion"<<endl;
-					cout<<"d)todas las opciones son correctas"<<endl;
+						}	
+					cout<<"10.Â¿Con que funcion declaramos un entero?"<<endl;
+					cout<<"a)todas las anteriores"<<endl;
+					cout<<"b)con la funcion else"<<endl;
+					cout<<"c)int"<<endl;
+					cout<<"d)a y b son correctas"<<endl;
 					cin>>respuesta;
 
 				    if(respuesta=='c')
@@ -1076,58 +1300,7 @@ main()
 						{
 							cout<<"La respuesta es incorrecta"<<endl; 
 							contan=contan+1;
-						}
-					cout<<"8-¿Que es la criptografia en la seguridad cibernetica ?"<<endl;
-					cout<<"a)Es un codigo con orden estructurado de aspectos basicos para la proteccion de datos"<<endl;
-					cout<<"b)Es un sistema Operativo que encripta informacion para dificultar su violacion"<<endl;
-					cout<<"c)Es una práctica que consiste en proteger información mediante el uso de algoritmos codificados, hashes y firmas"<<endl;
-					cout<<"d)Es un lenguaje de desarrollo cibernetico que guarda datos para trasladarlos de forma segura de una base a otra"<<endl;
-					cin>>respuesta;
-
-				    if(respuesta=='c')
-						{
-					  		cout<<"la respuesta es correcta"<<endl;
-					  		contap=contap+1;
-				    	}
-					else
-						{
-							cout<<"La respuesta es incorrecta"<<endl; 
-							contan=contan+1;
-						}
-					cout<<"9-Funciones de un Firewall"<<endl;
-					cout<<"a)proteger el sistema de malware, gusanos y virus"<<endl;
-					cout<<"b)dirigir la informacion a un servidor para que contenido no sea publico"<<endl;
-					cout<<"c)impide la filtracion de contenido"<<endl;
-					cout<<"d)a y c son correctas"<<endl;
-					cin>>respuesta;
-
-				    if(respuesta=='d')
-						{
-					  		cout<<"la respuesta es correcta"<<endl;
-					  		contap=contap+1;
-				    	}
-					else
-						{
-							cout<<"La respuesta es incorrecta"<<endl; 
-							contan=contan+1;
-						}
-					cout<<"10-¿Cuales son los beneficios de la ciberseguridad?"<<endl;
-					cout<<"a)cumplir con requisitos legales, evitar perdidas financieras, conciencia de seguridad"<<endl;
-					cout<<"b)control de acceso, productividad del equipo, recuperacion de informacion"<<endl;
-					cout<<"c)proteccion a la infraestructura de la red, confianza, monitoreo interno"<<endl;
-					cout<<"d)todas las anteriores"<<endl;
-					cin>>respuesta;
-
-				    if(respuesta=='d')
-						{
-					  		cout<<"la respuesta es correcta"<<endl;
-					  		contap=contap+1;
-				    	}
-					else
-						{
-							cout<<"La respuesta es incorrecta"<<endl; 
-							contan=contan+1;
-						}
+						}			
 			break;
 			case 8: 
 				cout<<"LENGUAJE DE PROGRAMACION C++"<<endl; 
